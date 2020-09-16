@@ -19,9 +19,8 @@ func _input(event):
 	if event is InputEventScreenTouch:
 		col = Color.aquamarine
 	if !col:
-		col = Color.gray
-
-#		return
+#		col = Color.gray
+		return
 	var msg = " _input event = {ev}".format({ 'ev': event})
 	log_msg(msg, col)
 
